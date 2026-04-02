@@ -4,7 +4,7 @@
   "installCommand": "pnpm install",
   "builds": [
     {
-      "src": "src/app.ts",
+      "src": "dist",
       "use": "@vercel/node"
     }
   ],
